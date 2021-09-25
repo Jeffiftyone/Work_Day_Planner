@@ -16,5 +16,5 @@ The user may type within the text area of the timeblock. If the user clicks the 
 
 Link to Repository: https://github.com/Jeffiftyone/Work_Day_Planner
 Link to Page: https://jeffiftyone.github.io/Work_Day_Planner/
-ScreenShot: ./WorkScheduler.PNG
+ScreenShot: ![Work_day_planner](https://github.com/Jeffiftyone/Work_Day_Planner/blob/main/WorkScheduler.PNG?raw=true)
 
