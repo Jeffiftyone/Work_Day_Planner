@@ -31,12 +31,14 @@ function savePlanner(){
         localStorage.setItem(hours[i],$(hours[i]).val());
     }
 }
+//get the plans saved to local and populate them on the planner
 function plans(){
     for(i=0; i<hours.length; i++){
-        
+        $(hours[i]).text(localStorage.getItem(hours[i]));
     }
 }
 checkTime();
+plans();
 $("button").click(function(){
     savePlanner();
 });
