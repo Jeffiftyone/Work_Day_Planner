@@ -14,14 +14,15 @@ function checkTime(){
              //if the current hour is less than the timeblock, future class is added
             $(hours[i]).addClass("future");
         }
-        if (today.hour==hourCount){
-             //if the current hour is equal to the timeblock, present class is added
-            $(hours[i]).addClass("present");
-        }
+
         if(today.hour()>hourCount){
             //if the current hour is greater than the timeblock, past class is added
             $(hours[i]).addClass("past");
         }
+        else {
+            //if the current hour is equal to the timeblock, present class is added
+           $(hours[i]).addClass("present");
+       }
         hourCount++;
     }
 }
